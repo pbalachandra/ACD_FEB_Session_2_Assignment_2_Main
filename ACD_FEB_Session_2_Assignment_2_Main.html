@@ -1,0 +1,49 @@
+<HTML>
+<HEAD>
+	<TITLE>
+		FORM
+	</TITLE>
+</HEAD>
+<BODY>
+<TABLE>
+<TR><TD>
+<FORM ACTION = "submit" METHOD = "post">
+	<FIELDSET>
+		<LEGEND>Your Details :</LEGEND>
+		Name : 
+		<INPUT TYPE = "text" NAME = "name" SIZE = "25">
+		<BR>
+		Email :
+		<INPUT TYPE = "text" NAME = "email" SIZE = "25">
+	</FIELDSET>
+	<BR>
+	<FIELDSET>
+		<LEGEND>Your Review :</LEGEND>
+		<BR>
+		How did you hear about us ?
+		<SELECT NAME = "source">
+			<OPTION VALUE = "google" SELECTED>Google</OPTION>
+			<OPTION VALUE = "facebook">Facebook</OPTION>
+			<OPTION VALUE = "twitter">Twitter</OPTION>
+		</SELECT>
+		<BR> <BR>
+		Would you visit again?
+		<BR>
+		<INPUT TYPE = "radio" NAME = "visit" VALUE = "Yes">Yes
+		<INPUT TYPE = "radio" NAME = "visit" VALUE = "No">No
+		<INPUT TYPE = "radio" NAME = "visit" VALUE = "Maybe">Maybe
+		<BR> <BR>
+		Comments:
+		<BR>
+		<TEXTAREA NAME = "comments" ROWS = "5" COLS = "45"> </TEXTAREA>
+		<BR> <BR>
+		<INPUT TYPE = "checkbox" NAME = "updates" CHECKED>
+		Sign me up for email updates
+		<BR>
+		<INPUT TYPE = "submit" NAME = "submit" VALUE = "Submit Review">
+	</FIELDSET>
+</FORM>
+</TD></TR>
+</TABLE>
+</BODY>
+</HTML>
